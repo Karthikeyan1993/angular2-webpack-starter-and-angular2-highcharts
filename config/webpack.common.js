@@ -70,7 +70,7 @@ module.exports = function (options) {
       alias: {
         // NOTE: You should set 'highcharts/highcharts.src.js'
         // if you are not going to use <chart type="StockChart"
-        highcharts$: "highcharts/highstock.src.js"
+        highcharts$: "highcharts/js/highstock.src.js"
       },
       /*
        * An array of extensions that should be used to resolve modules.

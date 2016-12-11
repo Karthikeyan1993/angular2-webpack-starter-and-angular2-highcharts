@@ -12,8 +12,9 @@ import { AppState } from './app.service';
 @Component({
   selector: 'app',
   encapsulation: ViewEncapsulation.None,
-  styleUrls: [
-    './app.component.css'
+  styles: [
+    require('highcharts/css/highcharts.css'),
+    require('./app.component.css'),
   ],
   template: `
     <nav>
